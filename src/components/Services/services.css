@@ -91,9 +91,14 @@ h4 {
 @media screen and (max-width: 600px) {
   .services__cards {
     display: block;
+    width: var(--container-width-md);
     margin-left: 0 auto;
   }
 
+  .services__card:hover .services__card-side.front {
+    width: 100%;
+  }
+  
   .services__card:hover .services__card-side.back {
     width: 100%;
   }

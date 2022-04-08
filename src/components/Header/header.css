@@ -21,6 +21,10 @@ header {
     font-weight: 600;
 }
 
+.text-container h1 {
+    background-color: rgba(233, 233, 233, 0.247);
+}
+
 .scroll__down {
     position: absolute;
     right: 2.3rem;

@@ -4,7 +4,7 @@ import {AiOutlineHome} from 'react-icons/ai'
 import {AiOutlineUser} from 'react-icons/ai'
 import {RiServiceLine} from 'react-icons/ri'
 import {BiMessageSquareDetail} from 'react-icons/bi'
-import ScrollspyNav from 'react-scrollspy-nav'
+import ScrollspyNav from 'react-scrollspy-nav'  
 
 const Nav = () => {
   return (

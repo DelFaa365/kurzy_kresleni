@@ -1,0 +1,16 @@
+.footer__container {
+    background: var(--color-bg-variant);
+    width: 100%;
+}
+
+.footer__rows {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-evenly;
+}
