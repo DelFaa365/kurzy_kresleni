@@ -1,12 +1,8 @@
-.services__main {
-  margin: 0;
-  padding: 0;
-}
+
 .services__cards {
     display: grid;
-    place-content: center;
-    grid-template-columns: 20% 20%;
-    gap: 15%;
+    grid-template-columns: 35% 35%;
+    justify-content: space-around;
 }
 
 h1, h4{
@@ -24,7 +20,7 @@ h4 {
   perspective: 150rem;
   position: relative;
   height: 40rem;
-  max-width: 400px;
+  max-width: 500px;
   box-shadow: none;
   background: none;
 }
@@ -60,12 +56,12 @@ h4 {
 
 .services__card:hover .services__card-side.front {
   transform: rotateY(180deg);
-  width: 150%;
+  width: 130%;
 }
 
 .services__card:hover .services__card-side.back {
   transform: rotateY(0deg);
-  width: 150%;
+  width: 130%;
 }
 
 .services__card:hover:nth-child(even) .services__card-side.back {
@@ -101,6 +97,7 @@ h4 {
   
   .services__card:hover .services__card-side.back {
     width: 100%;
+    font-size: 0.85rem;
   }
 
   .services__card:hover:nth-child(even) .services__card-side.back {

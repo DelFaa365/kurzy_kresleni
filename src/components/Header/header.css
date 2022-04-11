@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    padding-top: 7rem;
+    margin: auto 0;
     overflow: hidden;
     background: linear-gradient(to bottom right, rgba(72, 72, 212, 0), rgba(241, 104, 104, 0)), url('../../assets/background.png') center center no-repeat;
     background-size: cover;
