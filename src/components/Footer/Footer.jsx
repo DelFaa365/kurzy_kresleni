@@ -7,7 +7,7 @@ const footer = () => {
       <div className="container footer__container">
         <div className="footer__rows">
           <a href="">Obchodní podmínky</a>
-          <a href="">Zpracování soukromí</a>
+          <a href="">Ochrana soukromí</a>
         </div>
         <div className="copyright">
           <p>Copyright © 2022           <a href="http://kurzy_kresleni.cz/">Kurzy kreslení</a></p>
