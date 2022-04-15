@@ -28,12 +28,6 @@ const contact = () => {
             <a href="https://m.me/jana.strmiskova.52">Poslat zprávu</a>
           </article>
         </div>
-        <form action="">
-          <input type="text" name="name" id="" placeholder='Vaše jméno' required />
-          <input type="email" name="email" id="" placeholder='Váš email' required />
-          <textarea name="message" id="" rows="7" placeholder='Vaše zpráva'></textarea>
-          <button type="submit" className='btn btn-primary'>Poslat zprávu</button>
-        </form>
       </div>
     </section>
   )

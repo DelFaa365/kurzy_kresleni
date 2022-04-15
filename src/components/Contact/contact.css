@@ -1,14 +1,12 @@
 .container.contact__container {
     width: 58%;
-    display: grid;
-    grid-template-columns: 30% 58%;
-    gap: 12%;
 }
 
 .contact__options {
     display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
+    flex-direction: row;
+    gap: 5%;
+    justify-content: space-evenly;
 
 }
 
@@ -17,6 +15,7 @@
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
+    min-width: 25rem;
     border: 1px solid transparent;
     transition: var(--transition);
 }
@@ -46,6 +45,7 @@ form {
     flex-direction: column;
     gap: 1.2rem;
 }
+
 
 input, textarea {
     width: 100%;
