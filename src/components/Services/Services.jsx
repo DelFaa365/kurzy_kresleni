@@ -18,7 +18,7 @@ const services = () => {
               <h3>Automatická Kresba</h3>
               <h4>Klikni pro zobrazení podrobností</h4>
             </div>
-            <div className="services__card-side back">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ut, voluptas deleniti sit excepturi modi ratione, repellat voluptatum quaerat explicabo molestiae dolore dolores ullam fugiat cum autem nam placeat enim!</div>
+            <div className="services__card-side back">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ut, voluptas deleniti sit excepturi modi ratione, repellat voluptatum quaerat explicabo molestiae dolore dolores ullam fugiat cum autem nam placeat enim!  <button className="btn btn-primary">Dlaší podrobnosti</button></div>
           </div>
         </div>
     </section>
