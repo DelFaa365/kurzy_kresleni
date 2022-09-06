@@ -13,7 +13,7 @@ const Automaticka = () => {
         </div>
     </header>
   <section id="automaticka">
-    <div className="container contact__container">
+    <div className="container automaticka__container">
       <h1></h1>
     </div>
   </section>
