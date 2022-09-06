@@ -5,7 +5,15 @@ const PravaHemisfera = () => {
   return (
     <>
       <Nav2></Nav2>
-      <div>asdasd</div>
+      <section id="pravahemisfera">
+        <h1>Kreslení pravou mozkovou hemisférou</h1>
+        <div className="container pravahemsifera_container">
+          <h1></h1>
+          <div className="pravahemisfera__textbox">
+            
+          </div>
+        </div>
+      </section>
     </>
   );
 };
