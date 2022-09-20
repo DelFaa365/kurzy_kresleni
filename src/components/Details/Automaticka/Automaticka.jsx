@@ -6,12 +6,12 @@ const Automaticka = () => {
   <>  
   <Nav2></Nav2>
   <header id="home">
-        <div className="container header__container">
+  <div className="container header__container">
           <div className="text-container">
             <h1>Automatická kresba</h1>
           </div>
         </div>
-    </header>
+  </header>
   <section id="automaticka">
     <div className="container automaticka__container">
       <h1></h1>
