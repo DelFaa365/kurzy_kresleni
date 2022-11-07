@@ -14,6 +14,10 @@ header {
 	text-align: center;
 }
 
+.mg-top-8 {
+    margin-top: 15%;
+}
+
 .header__container .text-container {
 	margin-bottom: 3rem;
     color: var(--color-bg);
@@ -33,6 +37,11 @@ header {
     font-weight: 300;
     font-size: 0.9rem;
 }
+
+.scroll__down > a {
+    margin-left: 0.7em;
+}
+
 
 @media screen and (max-width: 1024px) {
     header {

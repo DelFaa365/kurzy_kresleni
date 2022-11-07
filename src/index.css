@@ -103,6 +103,7 @@ a:hover {
   color: var(--color-white);
 }
 
+
 .btn {
   width: max-content;
   display: inline-block;
@@ -151,3 +152,4 @@ img {
     margin-bottom: 2rem;
   }
 }
+

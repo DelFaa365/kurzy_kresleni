@@ -26,6 +26,12 @@ const contact = () => {
             <a href=""></a>
           </article>
           <article className="contact_option">
+            <MdOutlineEmail className='contact_option-icon'/>
+            <h4>E-mail</h4>
+            <h5>Bude doplňěno</h5>
+            <a href=""></a>
+          </article>
+          <article className="contact_option">
             <RiMessengerLine className='contact_option-icon'/>
             <h4>Messenger</h4>
             <h5>Jana Strmisková</h5>
