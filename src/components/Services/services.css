@@ -24,6 +24,8 @@ h4 {
 .services__card-text {
   max-height: 90%;
   overflow: auto;
+  animation: ease-inx;
+  display: none;
 }
 
 .services__card {
@@ -72,6 +74,12 @@ h4 {
 .services__card:hover .services__card-side.back {
   transform: rotateY(0deg);
   width: 142%;
+}
+
+.services__card:hover .services__card-text {
+  max-height: 90%;
+  overflow: auto;
+  display: block;
 }
 
 .services__card:hover:nth-child(even) .services__card-side.back {
